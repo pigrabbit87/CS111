@@ -1,0 +1,23 @@
+total 204
+-r--r--r-- 1 yehh engugrad   711 Jan  9  2012 alloc.c
+-r--r--r-- 1 yehh engugrad   176 Jan  9  2012 alloc.h
+-rw-r--r-- 1 yehh engugrad  6088 Feb  9 13:11 alloc.o
+-rw-r--r-- 1 yehh engugrad     0 Feb  9 13:53 a.txt
+-rw-r--r-- 1 yehh engugrad     0 Feb  9 13:47 b.txt
+-r-xr-xr-x 1 yehh engugrad   508 Jan  9  2012 check-dist
+-rw-r--r-- 1 yehh engugrad  1093 Feb  7 18:45 command.h
+-r--r--r-- 1 yehh engugrad   759 Jan  9  2012 command-internals.h
+-rw-r--r-- 1 yehh engugrad 10518 Feb  9 13:53 execute-command.c
+-rw-r--r-- 1 yehh engugrad 25280 Feb  9 13:53 execute-command.o
+-rw-r--r-- 1 yehh engugrad    35 Feb  9 13:24 exe.sh
+-rwxrwxrwx 1 yehh engugrad  1562 Feb  7 18:46 main.c
+-rw-r--r-- 1 yehh engugrad  9680 Feb  9 13:11 main.o
+-r--r--r-- 1 yehh engugrad  1077 Jan  9  2012 Makefile
+-r--r--r-- 1 yehh engugrad  1220 Jan  9  2012 print-command.c
+-rw-r--r-- 1 yehh engugrad  6592 Feb  9 13:11 print-command.o
+-rw-r--r-- 1 yehh engugrad 14233 Feb  7 18:31 read-command.c
+-rw-r--r-- 1 yehh engugrad 25992 Feb  9 13:11 read-command.o
+-rwxr-xr-x 1 yehh engugrad  1513 Jan 25 13:03 README
+-rwxr-xr-x 1 yehh engugrad   981 Jan 24 21:35 test-p-bad.sh
+-r-xr-xr-x 1 yehh engugrad  1066 Jan  9  2012 test-p-ok.sh
+-rwxr-xr-x 1 yehh engugrad 42905 Feb  9 13:53 timetrash

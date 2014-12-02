@@ -1,0 +1,35 @@
+LAB 1
+
+Authors:
+Emily Hwang
+Hang(Irene) Yeh
+
+=============================================================================
+LAB 1A
+Limitation described in last paragraph
+LIMITATION: getting Error 1 with make check
+
+A token, consisting of a simple command, is retrieved from the shell script by
+continously grabbing bytes from the shell script until a full simplee command is
+formed. The token, stored in a allocated char pointer array, is then used to
+create a single command structure. 
+
+Three tokens form a subtree, with the middle token as an operator. The subtree
+is then passed along so that the previously created subtree is the left subtree
+of the current tree. Subtrees are created then attached to the tree until a
+complete command is formed.
+
+A complete command (a command stream), made of many simple commands stringed 
+together by special tokens, is organized into a structure similar to a binary 
+tree. The commands are read starting from the lowest left node of the tree. The 
+tree is traversed in-order: left subtree, root, right subtree. 
+
+The multiple command streams are inserted into a linked list which is later
+traversed in the read function.
+
+If there is illegal syntax in the shell script, the program outputs an error
+message with the line number and aborts. 
+LIMITATION:
+Line number is occasionally not truee to shell script file. Sometimes the error
+is located in the line above instead of the line printed.
+===============================================================================
